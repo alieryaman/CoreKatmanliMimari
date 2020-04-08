@@ -6,11 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace TestProject.Core.DataAccess
+namespace CoreKatmanliMimari.core.DataAcsess
 {
     public interface IEntityRepository<T> where T : class, IEntity, new()
     {
-        ,
+        
         T Add(T entity);
 
         Task<T> AddAsync(T entity);
