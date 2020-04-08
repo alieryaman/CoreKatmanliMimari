@@ -5,10 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\Managers\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\CoreKatmanliMimari.DataAccess\CoreKatmanliMimari.DataAccess.csproj" />
     <ProjectReference Include="..\CoreKatmanliMimari.Entitiy\CoreKatmanliMimari.Entitiy.csproj" />
   </ItemGroup>
 
