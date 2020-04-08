@@ -10,7 +10,7 @@ namespace TestProject.Core.DataAccess
 {
     public interface IEntityRepository<T> where T : class, IEntity, new()
     {
-
+        ,
         T Add(T entity);
 
         Task<T> AddAsync(T entity);
