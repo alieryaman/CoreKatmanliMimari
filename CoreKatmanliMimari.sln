@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreKatmanliMimari.DataAcce
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreKatmanliMimari.Business", "CoreKatmanliMimari.Business\CoreKatmanliMimari.Business.csproj", "{636D612E-0CDD-4589-9BB0-D1AD63600E06}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreKatmanliMimari.WEBUI", "CoreKatmanliMimari.WEBUI\CoreKatmanliMimari.WEBUI.csproj", "{797AC348-CEE1-4B6C-81AB-55F7E2697697}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{636D612E-0CDD-4589-9BB0-D1AD63600E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{636D612E-0CDD-4589-9BB0-D1AD63600E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{636D612E-0CDD-4589-9BB0-D1AD63600E06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{797AC348-CEE1-4B6C-81AB-55F7E2697697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{797AC348-CEE1-4B6C-81AB-55F7E2697697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{797AC348-CEE1-4B6C-81AB-55F7E2697697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{797AC348-CEE1-4B6C-81AB-55F7E2697697}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
